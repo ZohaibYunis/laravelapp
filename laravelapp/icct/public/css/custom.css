@@ -1,0 +1,192 @@
+#login-bg .container-fluid {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+#login-bg {
+    background-image: url('../img/bg.jpg');
+    width: 100%;
+    /*top: 0;*/
+    /*left: 0;*/
+    height: 100%;
+    -webkit-background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    -o-background-size: 100% 100%;
+    background-size:100% 100%;
+
+
+
+
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    background-color: #EBEBEB;
+}
+
+.navcustom {
+    border-radius: 0px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid transparent !important;
+    margin-bottom: 0px !important;
+    padding: 7px 41px;
+}
+
+.navrightcustom {
+    padding-top: 15px !important;
+}
+
+.navrightcustom > li > a {
+    color: #fff !important;
+    font-size: 14px;
+}
+
+.navrightcustom > li > a:hover {
+    background-color: #1DC7EA;
+}
+
+.navcustom .navbar-toggle {
+    margin-top: 20px !important;
+    display: none;
+}
+
+.navcustom {
+    border: none;
+    border-bottom-color: #1DC7EA !important;
+    border-bottom-width: 2px !important;
+}
+
+.login-content-wrapper {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin-top: 73px;
+}
+.register-content-wrapper {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.login-form-bg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background:rgba(0,0,0,0.6);
+}
+
+
+.login-panel{
+    border-radius:0px;
+    border:none !important;
+}
+.login-panel .panel-heading{
+
+    background :#1DC7EA !important; ;
+    color:white !important;
+    border-radius:0px !important;
+    padding:13px 8px;
+    border-color: transparent !important;
+
+}
+.login-panel .panel-title{
+    font-size:15px;
+}
+.fa-sign-in{
+    margin-right:5px;
+}
+.login-panel .form-group{
+    padding-top: 10px !important;
+}
+.login-panel .panel-body{
+    background: #E9E9EA ;
+}
+.login-panel .form-control:focus{
+    border-color: #EFF2F6 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+input.login_username{
+   height: 40px !important;
+    border-radius: 0px !important;
+    background-image: url('../img/username.fw.png') !important;
+    background-position: 95% 6px;
+    background-repeat: no-repeat;
+}
+input.register_username{
+    height: 40px !important;
+    border-radius: 0px !important;
+    background-image: url('../img/email.png') !important;
+    background-position: 95% 6px;
+    background-repeat: no-repeat;
+}
+input.login_password{
+    height: 40px !important;
+    border-radius: 0px !important;
+    background-image: url('../img/password.fw.png') !important;
+    background-position: 95% 6px;
+    background-repeat: no-repeat;
+}
+.errorMessage{
+    color: #ff5043;
+}
+input.btn-login{
+    padding:10px 0px;
+    background-color:#1DC7EA;
+    color:white;
+    text-decoration:none;
+    border:none !important;
+    margin-top:10px;
+    display:  block;
+
+}
+input.btn-login:hover{
+    background-color:#1DC7EA;
+}
+.login-btn-row{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.new-account-btn{
+
+    font-size:15px;
+    padding: 10px 0px;
+    display: block;
+    background-color: #1DC7EA;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none !important;
+    margin-top: 10px;
+
+}
+.new-account-btn a{
+    color:white;
+    font-size:16px;
+    text-decoration:none;
+
+}
+.new-account-btn:hover{
+    background-color:#1DC7EA;
+    color:white !important;
+    text-decoration: none !important;
+}
+.forgot-password{
+    color:#4B4B67;
+    cursor:pointer;
+}
+.login-help-txt
+{
+    color:#FFFFFF !important;
+    font-size: 18px;
+    padding: 20px 0px;
+
+
+}
+
+
+
+
